@@ -1,8 +1,7 @@
 {
   "title": "JwtCore",
   "copyright": "Public Domain",
-  "version": "1.0.1.0",
-
+  "version": "1.0.2.0",
   "description": "JwtCore is a JWT / JWS Implementation for .NET Core",
   "authors": [ "@arichika (arichika.taniguchi)" ],
   "packOptions": {
@@ -14,22 +13,24 @@
       "url": "https://github.com/SiroccoHub/JwtCore.git"
     }
   },
-
-  "dependencies": {
-    "Microsoft.CSharp": "4.0.0",
-    "NETStandard.Library": "1.5.0-rc2-*",
-    "Newtonsoft.Json": "8.0.*",
-    "System.Security.Cryptography.Algorithms": "4.1.0-rc2-*"
-  },
-
   "frameworks": {
     "netstandard1.3": {
       "imports": [
         "dnxcore50",
         "dnx451",
         "dnxcore50"
-      ]
+      ],
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-rc2-24027",
+        "Newtonsoft.Json": "8.0.4-beta1",
+        "NETStandard.Library": "1.5.0-rc2-*",
+        "System.Security.Cryptography.Algorithms": "4.1.0-rc2-24027"
+      }
     },
-    "net4.6": {} 
+    "net4.6": {
+      "dependencies": {
+        "Newtonsoft.Json": "8.0.4-beta1"
+      }
+    }
   }
 }

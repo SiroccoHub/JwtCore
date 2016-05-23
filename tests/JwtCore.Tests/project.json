@@ -6,7 +6,7 @@
   "testRunner": "xunit",
 
   "dependencies": {
-    "JwtCore": "1.0.0-*",
+    "JwtCore": "1.0.2-*",
     "xunit": "2.1.0",
     "dotnet-test-xunit": "1.0.0-rc2-*",
     "FluentAssertions": "4.6.1"
