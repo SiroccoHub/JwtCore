@@ -2,7 +2,7 @@
   "userSecretsId": "aspnet-AspNetCoreWebAppNetFramework-95211b09-bb53-48ae-9f0e-62bb09ee18d5",
 
   "dependencies": {
-    "JwtCore": "1.0.1.0",
+    "JwtCore": "1.0.2-*",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0-rc2-final",
